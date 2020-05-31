@@ -1,0 +1,146 @@
+QPushButton{
+	background-color:#FF7597;
+    color: white;
+    font:  12pt;
+}
+QMainWindow{
+	background-color: #24191C;
+}
+
+QTabWidget::pane {
+    border: 1px solid #342B2D;
+    background: #342B2D;
+}
+
+
+/* Style the tab using the tab sub-control. Note that
+    it reads QTabBar _not_ QTabWidget */
+QTabBar::tab {
+    background: #342B2D;
+    padding: 8px;
+    color: #E2E1E1;
+    font:  13pt;
+    width:100;
+    height: 20;
+
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background:#988185 ;
+}
+
+QTabBar::tab:selected {
+    border-bottom:3 solid #FF7597 ;
+}
+
+QTabBar::tab:!selected {
+    margin-top: 2px;
+    padding: 8px; 
+    border-color: #342B2D;
+}
+
+QTabBar::tab:first:selected {
+    margin-left: 0; 
+}
+
+QTabBar::tab:last:selected {
+    margin-right: 0; 
+}
+
+QTabBar::tab:only-one {
+    margin: 0; 
+}
+
+QLabel{
+	color: #E2E1E1;
+	font:  15pt;
+}
+
+
+QHeaderView::section {
+    background-color: #342B2D;
+    padding: 4px;
+    font-size: 10pt;
+    color:white;
+    border-style: none;
+
+}
+
+QHeaderView::section:horizontal
+{
+    border-bottom: 1px solid #FF7597;
+}
+
+QHeaderView::section:vertical
+{
+    border-right: 1px solid #FF7597;
+}
+QTableWidget {
+	background: #342B2D;
+    gridline-color: #24191C;
+    font-size: 10pt;
+    color:#E2E1E1;
+   
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color:  #342B2D;
+    border: 1px solid #FF7597;
+}
+
+
+QScrollBar:vertical{
+	background: #453a3c;
+
+}
+QScrollBar::handle:verticle 
+{
+    background: #6e5e60;
+ 
+} 
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background:none;
+}
+QScrollBar::add-page:verticle, QScrollBar::sub-page:verticle {
+    background:none;
+}
+QScrollBar:horizontal{
+	background: #453a3c;
+
+}
+QScrollBar::handle:horizontal 
+{
+    background: #6e5e60;
+    
+}    
+
+QScrollBar::add-line:horizontal {
+      border: none;
+      background: none;
+}
+
+QScrollBar::sub-line:horizontal {
+      border: none;
+      background: none;
+}
+QScrollBar::add-line:verticle {
+      border: none;
+      background: none;
+}
+
+QScrollBar::sub-line:verticle {
+      border: none;
+      background: none;
+}
+
+
+QTextEdit
+{
+	background:   #453a3c;
+	/*border-color:  #453a3c;*/
+	color:#E2E1E1;
+	font: 13pt;
+
+
+}
